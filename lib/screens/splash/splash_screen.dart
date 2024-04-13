@@ -1,3 +1,4 @@
+import 'package:ecommerce_app/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants.dart';
@@ -17,12 +18,11 @@ class _SplashScreenState extends State<SplashScreen> {
   int currentPage = 0;
   List<Map<String, String>> splashData = [
     {
-      "text": "Welcome to Tokoto, Let’s shop!",
+      "text": "Welcome to Sokoni, Let’s shop!",
       "image": "assets/images/splash_1.png"
     },
     {
-      "text":
-          "We help people conect with store \naround United State of America",
+      "text": "We help people conect with store \naround Eat African",
       "image": "assets/images/splash_2.png"
     },
     {
@@ -81,7 +81,7 @@ class _SplashScreenState extends State<SplashScreen> {
                       const Spacer(flex: 3),
                       ElevatedButton(
                         onPressed: () {
-                          Navigator.pushNamed(context, SignInScreen.routeName);
+                          Navigator.pushNamed(context, HomeScreen.routeName);
                         },
                         child: const Text("Continue"),
                       ),
