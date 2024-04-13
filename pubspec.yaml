@@ -36,6 +36,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_svg: ^2.0.9 # help us to use SVG in our app
   provider: ^6.1.1 # for State management
+  firebase_auth: ^4.19.1
+  firebase_core: ^2.29.0
 
 dev_dependencies:
   flutter_test:
